@@ -1,0 +1,40 @@
+/* <uniquifier>: Use a unique and descriptive class name
+   <weight>: Use a value from 100 to 400 */
+
+.playwrite {
+  font-family: "Playwrite AT", cursive;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: italic;
+}
+
+body {
+    background-color: #e480dd44;
+}
+
+h1.playwrite {
+    text-align: center;
+    color: hsla(317, 100%, 74%, 0.7);
+    font-size: 40px;
+}
+
+div.recipe-list {
+    background-color: #e480dd50;
+    padding: 20px;
+    margin-left: 20%;
+    margin-right: 20%;
+    border-radius: 20px;
+}
+
+.recipe-list li {
+    list-style: none;
+    text-indent: 0%;
+    text-align: center;
+    padding-top: 5px;
+    
+}
+
+.recipe-list li a {
+    text-decoration: none;
+    color:#de79d7;
+}
